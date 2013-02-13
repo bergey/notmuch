@@ -1,3 +1,19 @@
+Each branch of this repository contains a feature I'm working on which
+has not yet been accepted upstream.  From time to time I rebase them
+against upstream to make sure my code still works.  You should beware:
+
+a) I may not have tested my code against the current upstream git
+b) If you fork this repo, after I rebase you git will give you errors
+
+I think one could use this code by:
+1. fetch this repository
+2. make a new local branch
+3. merge my feature branch into your local branch
+
+If you have suggestions of better workflow, let me know.
+
+Upstream README:
+
 Notmuch - thread-based email index, search and tagging.
 
 Notmuch is a system for indexing, searching, reading, and tagging
